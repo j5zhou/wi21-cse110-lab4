@@ -56,5 +56,13 @@ function dosomething(num){
     return num*2;
 }
 
-modifyArray([1,2,3],dosomething);
+function printNums(){
+    console.log(1);
+    setTimeout(function(){console.log(2);},1000);
+    setTimeout(function(){console.log(3);},0);
+    console.log(4);
+}
+
+printNums();
+//modifyArray([1,2,3],dosomething);
 //discountPrices([100,200,300],0.5);
