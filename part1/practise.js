@@ -7,4 +7,20 @@ function sum(num1,num2,add){
     console.log("Final:",result);
 }
 
-sum(10,10,true);
+function discountPrices(price,discount){
+    var discounted=[]
+    var finalPrice=0;
+    
+    for(var i=0;i<price.length;i++){
+        var discountPrice = price[i] * (1-discount);
+        finalPrice= Math.round(discountPrice *100)/100;
+        discounted.push(finalPrice);
+    }
+
+    console.log(i);
+
+
+    return discounted;
+}
+
+discountPrices([100,200,300],0.5);

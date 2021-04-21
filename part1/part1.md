@@ -11,3 +11,6 @@
 * 1: the code would return an error: Assignment to constant variable. becasue we define result as an constant. And we try to assign an value to the constant variable result, so it would throw an error.
 * 2: the code also would return an error: result is not defined. because we use the const to define the variable result. result would only be accessible on the if block. Outside the if block, the result variable is not  defined.
 
+## 1b
+1. it will print 3, because we use var to declare i, it is accessible on the function. we loop the i for 3 times, it would become 3. After the loop, we still could access the i variable.
+2. 
