@@ -45,12 +45,14 @@
     * E: false, because the comparison between the boolean value true and the number 2, would convert the boolean value true into its numeric value 0, then perform 0 == 2, which is false.
     * F: true, because Boolean(2) would convert 2 into its boolean value true, then compare true === true, which is true.
 
-- 15: == would compare the value between the two variables. If they are in different type, they would convert them into the same type first, and then compare their value. === checks the equality without type conversion. === not only compared the value, but also compare the type. 
+15. == would compare the value between the two variables. If they are in different type, they would convert them into the same type first, and then compare their value. === checks the equality without type conversion. === not only compared the value, but also compare the type. 
 
+16. part1b-question16.js
 
-- 17: [2,4,6].  For the function modifyArray, it accepts [1,2,3] as an array input and doSomething as the callback function input. for each number in the [1,2,3] array, it would pass it as the parameter to the callback function, which is doSomething at this case. The return value from the callback function would be push into the newArr array. Finally, it would return the newArr array.
+17. [2,4,6].  For the function modifyArray, it accepts [1,2,3] as an array input and doSomething as the callback function input. for each number in the [1,2,3] array, it would pass it as the parameter to the callback function, which is doSomething at this case. The return value from the callback function would be push into the newArr array. Finally, it would return the newArr array.
 
-- 19: 
+18. part1b-question18.js
+19. 
 - 1
 - 4
 - 3
