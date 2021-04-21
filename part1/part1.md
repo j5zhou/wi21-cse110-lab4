@@ -1,16 +1,16 @@
 ## 1a 
 ### var declaration:
-* 1: values added: 20
-* 2: final result: 20
+1. values added: 20
+2. final result: 20
 
 ### let declaration:
-* 1：values added: 20
-* 2: the code would return an error, because the variable result is not defined on the line 13. Using let to declare a variable, result only can be access in the if block. Outside the if block, the result varibale cannot be accese. Since it has an error, there is no output.
+1. values added: 20
+2.  the code would return an error, because the variable result is not defined on the line 13. Using let to declare a variable, result only can be access in the if block. Outside the if block, the result varibale cannot be accese. Since it has an error, there is no output.
 
 ### const declaration:
-* 1: the code would return an error: Assignment to constant variable. becasue we define result as an constant. And we try to assign an value to the constant variable result, so it would throw an error.
-* 2: the code also would return an error: result is not defined. because we use the const to define the variable result. result would only be accessible on the if block. Outside the if block, the result variable is not  defined.
+1. the code would return an error: Assignment to constant variable. becasue we define result as an constant. And we try to assign an value to the constant variable result, so it would throw an error.
+2. the code also would return an error: result is not defined. because we use the const to define the variable result. result would only be accessible on the if block. Outside the if block, the result variable is not  defined.
 
 ## 1b
 1. it will print 3, because we use var to declare i, it is accessible on the function. we loop the i for 3 times, it would become 3. After the loop, we still could access the i variable.
-2. 
+2. it will print 150, because we also use var to declare discountedPrice in the for loop. So, discountedPrice could be access on the whole function. It will keep its latest value. The latest value would be price[3] * (1 - 0.5) = 150.

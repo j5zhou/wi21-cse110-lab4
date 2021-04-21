@@ -12,12 +12,12 @@ function discountPrices(price,discount){
     var finalPrice=0;
     
     for(var i=0;i<price.length;i++){
-        var discountPrice = price[i] * (1-discount);
-        finalPrice= Math.round(discountPrice *100)/100;
+        var discountedPrice = price[i] * (1-discount);
+        finalPrice= Math.round(discountedPrice *100)/100;
         discounted.push(finalPrice);
     }
 
-    console.log(i);
+    console.log(finalPrice);
 
 
     return discounted;
