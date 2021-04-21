@@ -50,9 +50,9 @@
 
 17. [2,4,6].  For the function modifyArray, it accepts [1,2,3] as an array input and doSomething as the callback function input. for each number in the [1,2,3] array, it would pass it as the parameter to the callback function, which is doSomething at this case. The return value from the callback function would be push into the newArr array. Finally, it would return the newArr array.
 
-18. 
-1
-4
-3
-2
+19. 
+- 1
+- 4
+- 3
+- 2
 
