@@ -43,4 +43,18 @@ function discountPrices(price,discount){
 }
 
 
+function modifyArray(array,callback){
+    const newArr = [];
+    for( let i = 0 ; i< array.length; i++){
+        newArr.push(callback(array[i]));
+    }
+    console.log(newArr);
+    return newArr;
+}
+
+function dosomething(num){
+    return num*2;
+}
+
+modifyArray([1,2,3],dosomething);
 //discountPrices([100,200,300],0.5);
