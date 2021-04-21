@@ -7,20 +7,40 @@ function sum(num1,num2,add){
     console.log("Final:",result);
 }
 
+let student ={
+    name: 'Sarah',
+    major: 'Computer Science',
+    'Grad Year':'2022',
+    greeting: function(){
+        console.log('Hello!');
+    },
+    'Favorite Teacher':{
+        name: 'Thomas Powell',
+        course: 'CSE 110'
+    },
+    courseLoad:['CSE 110','CSE 134','VIS 41']
+};
+
+//student.greeting();
+console.log(student['courseLoad'][0]);
+
 function discountPrices(price,discount){
-    var discounted=[]
-    var finalPrice=0;
-    
-    for(var i=0;i<price.length;i++){
-        var discountedPrice = price[i] * (1-discount);
-        finalPrice= Math.round(discountedPrice *100)/100;
-        discounted.push(finalPrice);
+    const discounted=[]
+    const length=price.length;
+    //student.greeting();
+    //console.log(student.greeting());
+
+    for(let i=0;i<length;i++){
+        const discountedPrice = price[i] * (1-discount);
+        //finalPrice= Math.round(discountedPrice *100)/100;
+        discounted.push(discountedPrice);
     }
 
-    console.log(finalPrice);
+    console.log(discounted);
 
 
     return discounted;
 }
 
-discountPrices([100,200,300],0.5);
+
+//discountPrices([100,200,300],0.5);
