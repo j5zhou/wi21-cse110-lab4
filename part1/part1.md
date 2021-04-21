@@ -29,4 +29,21 @@
     * D: student['Favorite Teacher']['name']
     * E: student['courseLoad'][0]
 
-13. 
+13. * A: 32, because + between an string '3' and number 2, would convert the number 2 into its string format '2' and add two string '3' and '2' together, which become 32 as a string.
+    * B: 1, because - between an string '3' and number 2, would convert the string 3 into its number format 3, then perform the subtraction between the number 3 and number 2, which is number 1 as the result.
+    * C: 3, because +  between the number 3 and the null, would convert null into its Numeric value 0. So it would become number 3 + number 0, which gives the result of number 3.
+    * D: 3null, because + between the string '3' and the null, would convert the null into the string 'null', then perform the string addition, which is '3' + 'null' = '3null'.
+    * E: 4, because + between the boolean value true and the number 3, would convert the boolean value true into its numeric value 1, then perform number 1 + number 3, which gives the number 4 as a result.
+    * F: 0, because + between the boolean value false and the null, would convert the boolean value false into its numeric value 0. It would also convert the null into its numeric value 0 as well. Then 0 + 0 would be 0. 
+    * G: 3undefined, because + between the string '3' and the undefined, would convert the undefined into the string 'undefined', then perform the string addition, which is '3' + 'undefined' = '3undefined'.
+    * H: NaN, because - between an string '3' and the undefined, would convert the string 3 into its number format 3, and convert the undefined into its numeric value NaN. Then perform number 3 - NaN, which would gives NaN, because NaN stands for not a number. 
+
+14. * A: true, because the comparison between the string '2' and number 1, would convert string '2' into its numeric value 2, then compare 2>1, which is true.
+    * B: false, because the comparison between the string '2' and the string '12', would compare letter by letter, which means that it would compare '2' with '1' first. Since, '2' is greater than '1', so '2'<'12' would return false.
+    * C: true,  because the comparison between the string '2' and number 2, would convert string '2' into its numeric value 2, then compare 2 == 2 , which is true.
+    * D: false, becaue === would checks the equality without type conversion, which means that it would compare the number 2 with the string '2'. Obviosly, they are not equal, which means it is false. 
+    * E: false, because the comparison between the boolean value true and the number 2, would convert the boolean value true into its numeric value 0, then perform 0 == 2, which is false.
+    * F: true, because Boolean(2) would convert 2 into its boolean value true, then compare true === true, which is true.
+
+15. == would compare the value between the two variables. If they are in different type, they would convert them into the same type first, and then compare their value. === checks the equality without type conversion. === not only compared the value, but also compare the type. 
+

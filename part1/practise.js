@@ -22,7 +22,7 @@ let student ={
 };
 
 //student.greeting();
-console.log(student['courseLoad'][0]);
+console.log(true === Boolean(2));
 
 function discountPrices(price,discount){
     const discounted=[]
